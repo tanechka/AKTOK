@@ -37,8 +37,6 @@
 }
 /*стили для меню*/
 .menu-items {
-    display: none;
-    border-top:1px solid #ff4300;
     margin: 0;
     padding: 11px;
     padding-left: 0;
@@ -291,9 +289,6 @@ div.description{
 }
 .container_12 div.grid_4.basement{
 	width: 293px;
-}
-.footer div.grid_3.depiction.brim{
-	padding-top: 11.6%;
 }
 .brim input{
 	height: 19px;
