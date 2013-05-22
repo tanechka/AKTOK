@@ -1,0 +1,128 @@
+<!--Указываем тип текущего документа - строгий синтаксис HTML-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ru">
+	<head>
+		 <!--Кодировка сайта utf-8-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--Глобальный сброс CSS Эрика Мэйера -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<!--css сайта -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--[if IE]> 
+		<link href="css/ie.css" type="text/css" rel="stylesheet"> 
+		<![endif]--> 
+		<title>МонолитГрад</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">
+			$("#menuTitle").live("click", function(){
+	          $(".menu-items").toggle('slow');     
+	        });
+        </script>
+	</head>
+	<!--верстка сайта на 960 grid-->
+	<body>
+		<div class="container_12">
+			<!--header сайта-->
+			<div class="row">
+				<!--левая часть шапки сайта -->
+				<div class="grid_4">
+					<div class="logo">
+						<p><img src="images/logo.png" alt="logo"><span>МонолитГрад</span></p>
+						<p>Открытое акционерное общество</p>
+					</div>
+					<div class="menu">
+  						<span class="menu-title" id="menuTitle">МОНОЛИТНОЕ СТОРИТЕЛЬСТВО</span>
+  						<ul class="menu-items">
+    						<li><a href="#">Производственные мощности</a></li>
+    						<li><a href="#" class="white">Арматурный цех</a><img src="images/arrowTwo.png" alt="" class="arrow"></li>
+    						<li><a href="#">Товарный бетон и растворы</a></li>
+    						<li><a href="#">Фундаментные блоки (ФБС)</a></li>
+    					</ul>
+    					<span class="menu-title two">АРЕНДА ТЕХНИКИ</span>
+    					<span class="menu-title">ПРОИЗВОДСТВО</span>
+					</div>
+				</div>
+				<!--правая часть шапки сайта -->
+				<div class="grid_8 cap">
+					<div class="numbers">
+						<div class="phone">
+							<p>(017)</p>
+							<p>230-39-92</p>
+							<p>230-39-32</p>
+							<p>230-13-90</p>
+						</div>
+						<ul>
+							<li><img src="images/home.png" alt="home"></li>
+							<li><img src="images/element.png" alt="element"></li>
+							<li><img src="images/massege.png" alt="message"></li>
+							<li><img src="images/search.png" alt="search"></li>
+						</ul>
+					</div>
+					<div class="car">
+						<img src="images/building.png" alt="">
+						<img src="images/car.png" alt="">
+						<p>МонолитГрад</p>
+						<img src="images/logo1.png" alt="" class="logoCar">
+					</div>
+				</div>	
+			</div>
+			<!--меню-->
+			<div class="row">
+				<div class="grid_10 grid1">
+					<ul class="hr">
+						<li><a href="">Главная</a></li>
+						<li><a href="">О нас</a></li>
+						<li><a href="">Продукция</a></li>
+						<li><a href="">Услуги</a></li>
+						<li><a href="">Фотогалерия</a></li>
+						<li><a href="">Новости</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid_4 news">
+					<h3>Новости</h3>
+					<div class="newsCaption">
+						<p class="date">05.01.2011</p><h4>ПРОДАЖА КВАРТИР и ОФИСНЫХ ПОМЕЩЕНИЙ в м-не Сухарево</h4>
+						Приглашаем к участию в долевом строительстве квартир и офисов.
+					</div>
+					<div class="newsCaption">
+						<p class="date">05.01.2011</p><h4>ПРОДАЖА КВАРТИР и ОФИСНЫХ ПОМЕЩЕНИЙ в м-не Сухарево</h4>
+						Приглашаем к участию в долевом строительстве квартир и офисов.
+					</div>
+				</div>
+				<div class="grid_8 news">
+					<h3>История создания предприятия</h3>
+					<div class="description">В целях улучшения обеспечения организаций и предприятий Министерства архитектуры и строительства Республики Беларусь строительной техникой, автотранспортом, технологическим оборудованием и оснасткой в условиях перехода к рыночной экономике приказом Министра архитектуры и строительства № 159 от 17.12.1991 было создано производственное республиканское унитарное предприятие «Будтэх». УП «Будтэх» принадлежит на праве собственности Республике Беларусь и находится в ведении Министерства архитектуры и строительства Республики Беларусь.
+					Деятельность УП «Будтэх» зарегистрирована (перерегистрирована) решением Минского городского исполнительного комитета 08 августа 2000 г. №888 в едином государственном регистре юридических лиц и индивидуальных предпринимателей. Форма собственности - государственная. Размер уставного фонда: по состоянию на «01» января 2010 года составляет 1 950 000 рублей.
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid_12 footer">
+					<img src="images/bg.png" class="bg" alt="bg">
+					<div class="grid_4 basement depiction">
+						<p>Строительная компания “MONOLITGRAD”</p>
+						<p class="two">Все права защищены 2001 - 2011 </p>
+					</div>
+					<div class="grid_3 depiction">
+						<ul>
+							<li>МОНОЛИТНОЕ СТОРИТЕЛЬСТВО </li>
+							<li>АРЕНДА ТЕХНИКИ </li>
+							<li>ПРОИЗВОДСТВО</li>
+						</ul>
+					</div>
+					<div class="grid_3 depiction brim">
+						<input>
+						<input>
+					</div>
+					<div class="grid_2 firm">
+						<img src="images/Aktok.png" alt="firm">
+						<p class="white">Дизайн</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
